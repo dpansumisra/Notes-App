@@ -19,6 +19,7 @@ code {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    min-height: 100vh;
 
 }
 .note-list{
@@ -29,9 +30,9 @@ code {
 
 .note{
   background-color: rgb(208, 180, 235);
-
   border-radius: 10px;
   padding: 1rem;
+  white-space: pre-wrap;
   min-height: 170px;
   display: flex;
   flex-direction: column;
@@ -64,5 +65,36 @@ textarea{
   padding: 5px 10px 5px 10px;
 }
 textarea:focus{
+  outline: none;
+}
+.delete-icon{
+  cursor: pointer;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode{
+  background-color: black;
+}
+.dark-mode h1{
+  color: white;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(194, 191, 197);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+.search input{
+  border: none;
+  background-color: rgb(194, 191, 197);
+}
+.search input:focus{
   outline: none;
 }

@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-  background-color: rgb(89, 78, 101);
+  background-color: #fdebd0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
 		'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
 		'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -29,7 +29,7 @@ code {
 }
 
 .note{
-  background-color: rgb(208, 180, 235);
+  background-color: #f8c471 ;
   border-radius: 10px;
   padding: 1rem;
   white-space: pre-wrap;
@@ -46,16 +46,16 @@ code {
 } 
 
 .note.new{
-  background-color: #a2a1b1;
+  background-color:#f7dc6f ;
 }
 textarea{
   border: none;
   resize: none;
-  background-color:#a2a1b1;
+  background-color:#f7dc6f ;
 }
 
 .save:hover{
-  background-color: red;
+  background-color:#9a7d0a;
   cursor: pointer;
 }
 .save{
